@@ -17,6 +17,6 @@ end
 
 def find_the_cheese arr
   arr.find { |a| #a == "cheddar" || a == "gouda" || a == "camembert"
-    %q[cheddar gouda camembert].any? { |b| b == a}
+    %w[cheddar gouda camembert].any? { |b| b == a}
   }
 end
