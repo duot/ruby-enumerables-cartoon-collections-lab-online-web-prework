@@ -13,8 +13,9 @@ def long_planeteer_calls calls
 end
 
 
-cheese_types = ["cheddar", "gouda", "camembert"]
+
 
 def find_the_cheese str_arr
+  cheese_types = ["cheddar", "gouda", "camembert"]
   str_arr.find { |s| if cheese_types.find s then s end}
 end 
