@@ -13,8 +13,6 @@ def long_planeteer_calls calls
 end
 
 
-
-
 def find_the_cheese arr
   arr.find { |a| #a == "cheddar" || a == "gouda" || a == "camembert"
     %w[cheddar gouda camembert].any? a
