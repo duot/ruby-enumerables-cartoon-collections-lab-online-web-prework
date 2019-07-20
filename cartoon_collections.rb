@@ -15,6 +15,6 @@ end
 
 
 
-def find_the_cheese str_arr
-  str_arr.find(nil) { |s| s if s == "cheddar" or "gouda" or "camembert" }
+def find_the_cheese arr
+  arr.find { |a| a == "cheddar" || a == "gouda" || a == "camembert"}
 end
