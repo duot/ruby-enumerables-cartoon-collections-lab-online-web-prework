@@ -18,4 +18,4 @@ end
 def find_the_cheese str_arr
   cheese_types = ["cheddar", "gouda", "camembert"]
   str_arr.find { |s| if cheese_types.find s then s end}
-end 
+end
